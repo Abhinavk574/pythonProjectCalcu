@@ -1,5 +1,5 @@
 FROM python:3
 
-ADD src/src
+ADD src /src
 
-CMD [ "python", "./src/calculatorTest.py" ]
+CMD [ "python", "./src/CalculatorTest.py" ]
